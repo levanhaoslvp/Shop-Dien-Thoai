@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+<link href="~/Assets/css/styleRegister.css" rel="stylesheet" type="text/css" media="all" />
+
+<div class="reg">
+    <h1 style="text-align:center;">Creative SignUp Form</h1>
+    <div class="container1">
+
+        <div>
+            @if (TempData["AlertMessage"] != null)
+            {
+                <div id="AlertBox" class="alert @TempData["AlertType"] ">
+                    @TempData["AlertMessage"]
+                </div>
+            }
+        </div>
+        <form method="post">
+            <div class="row">
+                <h>Account</h>
+                <div class="input-group input-group-icon">
+                    <input type="text" name="UserName" placeholder="User Name" required="" />
+                    <div class="input-icon">
+                        <i class="fa fa-user-circle" style="padding-top:6px ; font-size:x-large;"></i>
+                    </div>
+                </div>
+                <div class="input-group input-group-icon">
+                    <input type="password" name="PassWord" placeholder="PassWord" required="" />
+                    <div class="input-icon">
+                        <i class="fa fa-key" style="padding-top:6px ; font-size:x-large;"></i>
+                    </div>
+                </div>
+                <input type="submit" value="SIGN-IN">
+            </div>
+
+            <div class="row">
+                <div>
+                    <p>
+                        Don't have an Account?
+                        <a href="/Account/index"> Register Now!</a>
+                    </p>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+

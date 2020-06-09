@@ -1,0 +1,72 @@
+﻿
+@{
+    
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>@ViewBag.title</title>
+    <link href="/Areas/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/Areas/assets/css/icons.css" rel="stylesheet">
+    <link href="/Areas/assets/css/menu.css" rel="stylesheet" type="text/css">
+    <link href="/Areas/assets/css/style.css" rel="stylesheet">
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css'>
+</head>
+
+<body class="sticky-header">
+    <section>
+        @Html.Partial("_LeftBar")
+        <div class="body-content">
+            <div class="header-section">
+                <a class="toggle-btn"><i class="ti ti-menu"></i></a>
+                <div id="navbar-collapse-1" class="navbar-collapse collapse mega-menu">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <form class="search-content" action="index.html" method="post">
+                                <input type="text" class="form-control mt-3" name="keyword" placeholder="Search...">
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+                <div class="notification-wrap">
+                    <div class="right-notification">
+                        <ul class="notification-menu">
+                            <li>
+                                <a href="javascript:;" data-toggle="dropdown">
+                                    <img src="/Asset/assets/images/users/avatar-1.jpg" alt="">
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-right profile-menu">
+                                    <li><a class="dropdown-item" href="#"><i class="mdi mdi-account-circle m-r-5 text-muted"></i> Profile</a></li>>
+                                    <li><a class="dropdown-item" href="#"><span class="badge badge-success pull-right">5</span><i class="mdi mdi-settings m-r-5 text-muted"></i> Settings</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="mdi mdi-lock-open-outline m-r-5 text-muted"></i> Lock screen</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="mdi mdi-logout m-r-5 text-muted"></i> Logout</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            @RenderBody()
+        </div>
+    </section>
+    <script src="/Areas/assets/js/jquery-3.2.1.min.js"></script>
+    <script src="/Areas/assets/js/jquery.app.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js'></script>
+    <script src="/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+
+    <script src="~/Areas/assets/js/popper.min.js"></script>
+    <script src="~/Areas/assets/js/bootstrap.min.js"></script>
+    <script src="~/Areas/assets/js/jquery.slimscroll.min.js"></script>
+    <script src="~/Areas/assets/js/slidebars.min.js"></script>
+
+    @RenderSection("scripts", required: false) @*----Optional---*@
+</body>
+</html>

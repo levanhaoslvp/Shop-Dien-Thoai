@@ -1,0 +1,618 @@
+﻿
+@{
+    ViewBag.Title = "Show";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+<link rel="stylesheet" href="~/access/css/ion.rangeSlider.css" />
+<link rel="stylesheet" href="~/access/css/ion.rangeSlider.skinFlat.css" />
+<link rel="stylesheet" href="~/access/css/StyleShow.css" />
+
+<html lang="zxx" class="no-js">
+
+<div style="background:floralwhite;">
+    <!--================Single Product Area =================-->
+    <div class="product_image_area">
+        <div class="container">
+            <div class="row s_product_inner">
+                <div class="col-lg-6">
+                    <div class="s_Product_carousel">
+                        @foreach (var item in ViewBag.ProductImage)
+                        {
+                            <div class="single-prd-item">
+                                <img class="img-fluid" src="~/Assets/img/productImage/@item.DetailImage_1" alt="">
+                            </div>
+                            <div class="single-prd-item">
+                                <img class="img-fluid" src="~/Assets/img/productImage/@item.DetailImage_2" alt="">
+                            </div>
+                            <div class="single-prd-item">
+                                <img class="img-fluid" src="~/Assets/img/productImage/@item.DetailImage_3" alt="">
+                            </div>
+                        }
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-1">
+                    @foreach (var it in ViewBag.product)
+                    {
+                        <div class="s_product_text">
+                            <h3>@it.ProductName</h3>
+                            <h2>@it.ProductPrice ₫</h2>
+                            <ul class="list">
+                                <li><a class="active" href="#"><span>Category</span> : @it.MetaKeyword</a></li>
+                                <li><a href="#"><span>Availibility</span> : In Stock</a></li>
+                            </ul>
+                            <p>
+                                Tặng 2 suất mua Đồng hồ thời trang giảm 40% (không áp dụng thêm khuyến mãi khác) <a href="">(click xem chi tiết)</a>  <br>
+                                Trả góp 0% thẻ tín dụng <a href="">Xem chi tiết </a> <br>
+                                Ưu đãi phòng chờ thương gia <a href="">Xem chi tiết</a>  <br>
+                                Thu cũ đổi mới lên đời S20 Ultra <a href="">Xem chi tiết</a>
+                            </p>
+                            <form action="thongsokt" method="post">
+                                @*<div class="section">
+                                        <h6 class="title-attr" style="margin-top:15px;"><small>COLOR</small></h6>
+                                        <div>
+                                            <div class="attr" style="width:25px;background:#5a5a5a;"></div>
+                                            <div class="attr" style="width:25px;background:white;"></div>
+                                        </div>
+                                    </div>*@
+                                @*<div class="section" style="padding-bottom:5px;">
+                                        <h6 class="title-attr"><small>Rom</small></h6>
+                                        <div>
+                                            <div>
+                                                <input class="attr2" name="ram" type="button" value="64gb" onclick="" />
+                                            </div>
+
+                                        </div>
+                                    </div>*@
+                                @*<div class="section" style="padding-bottom:5px;">
+                                        <h6 class="title-attr"><small>Ram</small></h6>
+                                        <div>
+
+                                            <div>
+                                                <input class="attr3" name="color" type="text" value="" />
+                                            </div>
+
+                                        </div>
+                                    </div>*@                           
+                            </form>
+                            <div class="product_count">
+
+                                <label for="qty">Quantity:</label>
+                                <input type="text" name="qty" id="sst" maxlength="12" value="1" title="Quantity:" class="input-text qty">
+                                <button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst )) result.value++;return false;"
+                                        class="increase items-count" type="button">
+                                    <i class="lnr lnr-chevron-up"></i>
+                                </button>
+                                <button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst ) &amp;&amp; sst > 0 ) result.value--;return false;"
+                                        class="reduced items-count" type="button">
+                                    <i class="lnr lnr-chevron-down"></i>
+                                </button>
+                            </div>
+                            <div class="card_area d-flex align-items-center">
+                                <a class="primary-btn" href="cart.html">Add to Cart</a>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--================End Single Product Area =================-->
+    <!--================Product Description Area =================-->
+    <section class="product_description_area">
+        <div class="container">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Description</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+                       aria-selected="false">Specification</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
+                       aria-selected="false">Comments</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" id="review-tab" data-toggle="tab" href="#review" role="tab" aria-controls="review"
+                       aria-selected="false">Reviews</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <p>
+                        Được cho là phiên bản kế nhiệm Galaxy S10 Plus đã ra mắt trước đó,
+                        Galaxy S20 Plus thừa hưởng nhiều công nghệ mới và thực sự là smartphone đáng tiền
+                        và rất đáng mua trong thời điểm này. Cùng mobile store đánh giá nhanh Galaxy S20
+                        Plus để xem, smartphone này có ưu điểm gì bạn nhé…
+                    </p>
+                    <p>
+                        Thiết kế đẹp – Màn hình 120 Hz - Xứng tầm phân khúc cao cấp
+
+                        Bề ngoài, Galaxy S20 Plus tương tự như hộp của Galaxy S10 ra mắt vào năm ngoái với tông màu đen chủ đạo,
+                        tên của sản phẩm được in trên hộp.  Samsung Galaxy vẫn trung thành với màn hình tràn viền đục lỗ,
+                        đây chính là nơi chứa cảm biến nhận diện khuôn mặt tích hợp Camera Selfie ấn tượng. Ngoài ra,
+                        Samsung còn cho cắt gọt và bo cạnh viền tinh tế khiến siêu phẩm trông vô cùng đẹp mắt.
+                    </p>
+                    <div>
+                        <img style="vertical-align: middle;" alt="" src="https://imgs.viettelstore.vn/Images/Product/ProductImage/1spen/as20plus%20(1).png">
+                    </div>
+                    <p>
+                        Về độ phân giải, Samsung khai thác độ phân giải cực cao, chạm ngưỡng 1440×3200 pixel từ đó cho ra mật độ
+                        điểm ảnh 525 ppi đỉnh cao, tái tạo hình ảnh vô cùng sắc nét khi kết hợp cùng tấm nền Dynamic AMOLED.
+                        Hơn nữa, thay vì tần số quét 90Hz thông thường, hãng tạo ra sự khác biệt nhảy vọt khi nâng thẳng lên ngưỡng 120Hz,
+                        đây là lần đầu tiên Samsung tích hợp màn hình 120Hz lên sản phẩm smartphone của mình.
+
+                        Nói đến thông số màn hình, Galaxy S20 Plus có màn hình 6,7 inch, khá vượt trội so với người tiền nhiệm của nó là 6.4 inch.
+                        Đó là màn hình AMOLED, có một camera đục lỗ ở trung tâm trên cùng của màn hình, Wide Quad High-Definition Plus (WQHD +)
+                    </p>
+                    <div>
+                        <p>
+                            Cấu hình mạnh mẽ, sử dụng chip Exynos hàng đầu
+                        </p>
+                        <img style="vertical-align: middle;" alt="" src="https://imgs.viettelstore.vn/Images/Product/ProductImage/1spen/as20plus%20(2).jpg">
+                        <p>
+                            Galaxy S20 Plus phiên bản dành cho thị trường quốc tế sẽ được trang bị con chip Exynos 990 được sản xuất trên tiến trình 7nm
+                            giống như chip Apple A13 và Snapdragon 865. Về mặt sức mạnh, con chip này cũng thuộc top đầu tiện nay.
+                            Đi kèm với đó là RAM 8GB, bộ nhớ trong UFS 3.0 128GB (có hỗ trợ thẻ nhớ mở rộng).
+                        </p>
+                    </div>
+
+                </div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <h5>thiết kế :</h5>
+                                    </td>
+                                    <td>
+                                        <h5>Nguyên Khối</h5>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h5>Chất liệu : </h5>
+                                    </td>
+                                    <td>
+                                        <h5>kim loại</h5>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h5>Chuẩn màn hình :</h5>
+                                    </td>
+                                    <td>
+                                        <h5>Dynamic AMOLED 2X</h5>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h5>Kích thước màn hình</h5>
+                                    </td>
+                                    <td>
+                                        <h5>6.7"</h5>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h5>Công nghệ cảm ứng</h5>
+                                    </td>
+                                    <td>
+                                        <h5>Kính cường lực Corning Gorilla Glass 6</h5>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h5>Chipset</h5>
+                                    </td>
+                                    <td>
+                                        <h5>Exynos 990 8 nhân</h5>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h5>Số nhân CPU</h5>
+                                    </td>
+                                    <td>
+                                        <h5>2 nhân 2.73 GHz, 2 nhân 2.6 GHz & 4 nhân 2.0 GHz</h5>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h5>Chip đồ họa (GPU)</h5>
+                                    </td>
+                                    <td>
+                                        <h5>Mali-G77 MP11</h5>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h5>RAM</h5>
+                                    </td>
+                                    <td>
+                                        <h5>8GB</h5>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h5>Camera</h5>
+                                    </td>
+                                    <td>
+                                        <h5>Chính 64 MP & phụ 12 MP, 12 MP, TOF 3D</h5>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h5>Bộ nhớ trong</h5>
+                                    </td>
+                                    <td>
+                                        <h5>128 GB</h5>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h5>Thẻ nhớ ngoài</h5>
+                                    </td>
+                                    <td>
+                                        <h5>MicroSD, hỗ trợ tối đa 1 TB</h5>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h5>Loại Sim</h5>
+                                    </td>
+                                    <td>
+                                        <h5>2 SIM Nano (SIM 2 chung khe thẻ nhớ)</h5>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h5>Wifi</h5>
+                                    </td>
+                                    <td>
+                                        <h5>Dual-band, Wi-Fi 802.11 a/b/g/n/ac/ax, Wi-Fi Direct, Wi-Fi hotspot</h5>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h5>GPS</h5>
+                                    </td>
+                                    <td>
+                                        <h5>BDS, A-GPS, GLONASS</h5>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h5>Bluetooth</h5>
+                                    </td>
+                                    <td>
+                                        <h5>apt-X, A2DP, LE, v5.0</h5>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h5>Kết nối USB</h5>
+                                    </td>
+                                    <td>
+                                        <h5>USB Type-C</h5>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h5>Xem phim</h5>
+                                    </td>
+                                    <td>
+                                        <h5>H.265, 3GP, MP4, AVI, WMV, H.264(MPEG4-AVC), DivX, WMV9, Xvid</h5>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h5>Nghe nhạc</h5>
+                                    </td>
+                                    <td>
+                                        <h5>AMR, Lossless, Midi, APE, MP3, WAV, WMA, AAC, AAC++, eAAC+, OGG, AC3, FLAC</h5>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h5>Ghi âm</h5>
+                                    </td>
+                                    <td>
+                                        <h5>Có, microphone chuyên dụng chống ồn</h5>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h5>Kích thước</h5>
+                                    </td>
+                                    <td>
+                                        <h5>Dài 161.9 mm - Ngang 73.7 mm - Dày 7.8 mm</h5>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h5>Trọng lượng</h5>
+                                    </td>
+                                    <td>
+                                        <h5>188 g</h5>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h5>Dung lượng Pin</h5>
+                                    </td>
+                                    <td>
+                                        <h5>4500 mAh,Pin chuẩn Li-Ion, Tiết kiệm pin, Siêu tiết kiệm pin, Sạc pin nhanh, Sạc pin không dây, Sạc ngược không dây</h5>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="comment_list">
+                                <div class="review_item">
+                                    <div class="media">
+                                        <div class="d-flex">
+                                            <img src="~/access/img/product/review-1.png" alt="">
+                                        </div>
+                                        <div class="media-body">
+                                            <h4>Blake Ruiz</h4>
+                                            <h5>12th Feb, 2018 at 05:56 pm</h5>
+                                            <a class="reply_btn" href="#">Reply</a>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                        commodo
+                                    </p>
+                                </div>
+                                <div class="review_item reply">
+                                    <div class="media">
+                                        <div class="d-flex">
+                                            <img src="~/access/img/product/review-2.png" alt="">
+                                        </div>
+                                        <div class="media-body">
+                                            <h4>Blake Ruiz</h4>
+                                            <h5>12th Feb, 2018 at 05:56 pm</h5>
+                                            <a class="reply_btn" href="#">Reply</a>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                        commodo
+                                    </p>
+                                </div>
+                                <div class="review_item">
+                                    <div class="media">
+                                        <div class="d-flex">
+                                            <img src="~/access/img/product/review-3.png" alt="">
+                                        </div>
+                                        <div class="media-body">
+                                            <h4>Blake Ruiz</h4>
+                                            <h5>12th Feb, 2018 at 05:56 pm</h5>
+                                            <a class="reply_btn" href="#">Reply</a>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                        commodo
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="review_box">
+                                <h4>Post a comment</h4>
+                                <form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="name" name="name" placeholder="Your Full name">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" id="email" name="email" placeholder="Email Address">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="number" name="number" placeholder="Phone Number">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <textarea class="form-control" name="message" id="message" rows="1" placeholder="Message"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 text-right">
+                                        <button type="submit" value="submit" class="btn primary-btn">Submit Now</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade show active" id="review" role="tabpanel" aria-labelledby="review-tab">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="row total_rate">
+                                <div class="col-6">
+                                    <div class="box_total">
+                                        <h5>Overall</h5>
+                                        <h4>4.0</h4>
+                                        <h6>(03 Reviews)</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="rating_list">
+                                        <h3>Based on 3 Reviews</h3>
+                                        <ul class="list">
+                                            <li>
+                                                <a href="#">
+                                                    5 Star <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 01
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    4 Star <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 01
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    3 Star <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 01
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    2 Star <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 01
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    1 Star <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 01
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review_list">
+                                <div class="review_item">
+                                    <div class="media">
+                                        <div class="d-flex">
+                                            <img src="~/access/img/product/review-1.png" alt="">
+                                        </div>
+                                        <div class="media-body">
+                                            <h4>Blake Ruiz</h4>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                        commodo
+                                    </p>
+                                </div>
+                                <div class="review_item">
+                                    <div class="media">
+                                        <div class="d-flex">
+                                            <img src="~/access/img/product/review-2.png" alt="">
+                                        </div>
+                                        <div class="media-body">
+                                            <h4>Blake Ruiz</h4>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                        commodo
+                                    </p>
+                                </div>
+                                <div class="review_item">
+                                    <div class="media">
+                                        <div class="d-flex">
+                                            <img src="~/access/img/product/review-3.png" alt="">
+                                        </div>
+                                        <div class="media-body">
+                                            <h4>Blake Ruiz</h4>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                        commodo
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="review_box">
+                                <h4>Add a Review</h4>
+                                <p>Your Rating:</p>
+                                <ul class="list">
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                </ul>
+                                <p>Outstanding</p>
+                                <form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="name" name="name" placeholder="Your Full name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Full name'">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address'">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="number" name="number" placeholder="Phone Number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone Number'">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <textarea class="form-control" name="message" id="message" rows="1" placeholder="Review" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Review'"></textarea></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 text-right">
+                                        <button type="submit" value="submit" class="primary-btn">Submit Now</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================End Product Description Area =================-->
+    <!-- start footer Area -->
+    <!-- End footer Area -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+            crossorigin="anonymous"></script>
+    <!--gmaps Js-->
+    <script src="~/access/js/main.js"></script>
+
+
+    <script>
+        $(".attr,.attr2,.attr3").on("click", function () {
+            var clase = $(this).attr("class");
+
+            $("." + clase).removeClass("active");
+            $(this).addClass("active");
+        })
+    </script>
+
+</div>
+
+</html>
+

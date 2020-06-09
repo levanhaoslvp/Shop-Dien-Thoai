@@ -1,0 +1,364 @@
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\obj\Debug\CNWeb.csprojAssemblyReference.cache
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\obj\Debug\CNWeb.csproj.CoreCompileInputs.cache
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\CNWeb.dll.config
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\CNWeb.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\CNWeb.pdb
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\csc.exe
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\csc.exe.config
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\csc.rsp
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\csi.exe
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\csi.exe.config
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\csi.rsp
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\System.AppContext.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\System.Console.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\vbc.exe
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\vbc.exe.config
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\vbc.rsp
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\Antlr3.Runtime.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\EntityFramework.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\Model.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\Newtonsoft.Json.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\PagedList.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\PagedList.Mvc.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\SlugGenerator.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\System.Web.Helpers.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\System.Web.Mvc.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\System.Web.Optimization.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\System.Web.Razor.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\System.Web.WebPages.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\WebGrease.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\Model.pdb
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\Model.dll.config
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\EntityFramework.xml
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\PagedList.xml
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\PagedList.Mvc.xml
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\System.Web.Helpers.xml
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\System.Web.Mvc.xml
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\System.Web.Optimization.xml
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\System.Web.Razor.xml
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\System.Web.WebPages.xml
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\Newtonsoft.Json.xml
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\Antlr3.Runtime.pdb
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\obj\Debug\CNWeb.csproj.CopyComplete
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\obj\Debug\CNWeb.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\CNWeb\obj\Debug\CNWeb.pdb
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\CNWeb.dll.config
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\CNWeb.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\CNWeb.pdb
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\csc.exe
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\csc.exe.config
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\csc.rsp
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\csi.exe
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\csi.exe.config
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\csi.rsp
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\System.AppContext.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\System.Console.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\vbc.exe
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\vbc.exe.config
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\vbc.rsp
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\Antlr3.Runtime.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\EntityFramework.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\Model.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\Newtonsoft.Json.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\PagedList.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\PagedList.Mvc.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\SlugGenerator.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\System.Web.Helpers.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\System.Web.Mvc.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\System.Web.Optimization.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\System.Web.Razor.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\System.Web.WebPages.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\WebGrease.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\Model.pdb
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\Model.dll.config
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\EntityFramework.xml
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\PagedList.xml
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\PagedList.Mvc.xml
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\System.Web.Helpers.xml
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\System.Web.Mvc.xml
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\System.Web.Optimization.xml
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\System.Web.Razor.xml
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\System.Web.WebPages.xml
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\Newtonsoft.Json.xml
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\Antlr3.Runtime.pdb
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\obj\Debug\CNWeb.csprojAssemblyReference.cache
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\obj\Debug\CNWeb.csproj.CoreCompileInputs.cache
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\obj\Debug\CNWeb.csproj.CopyComplete
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\obj\Debug\CNWeb.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\CNWeb\obj\Debug\CNWeb.pdb
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\CNWeb.dll.config
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\CNWeb.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\CNWeb.pdb
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\csc.exe
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\csc.exe.config
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\csc.rsp
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\csi.exe
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\csi.exe.config
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\csi.rsp
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\System.AppContext.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\System.Console.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\vbc.exe
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\vbc.exe.config
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\vbc.rsp
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\Antlr3.Runtime.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\EntityFramework.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\Model.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\Newtonsoft.Json.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\PagedList.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\PagedList.Mvc.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\SlugGenerator.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\System.Web.Helpers.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\System.Web.Mvc.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\System.Web.Optimization.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\System.Web.Razor.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\System.Web.WebPages.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\WebGrease.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\Model.pdb
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\Model.dll.config
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\EntityFramework.xml
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\PagedList.xml
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\PagedList.Mvc.xml
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\System.Web.Helpers.xml
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\System.Web.Mvc.xml
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\System.Web.Optimization.xml
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\System.Web.Razor.xml
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\System.Web.WebPages.xml
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\Newtonsoft.Json.xml
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\Antlr3.Runtime.pdb
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\obj\Debug\CNWeb.csprojAssemblyReference.cache
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\obj\Debug\CNWeb.csproj.CoreCompileInputs.cache
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\obj\Debug\CNWeb.csproj.CopyComplete
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\obj\Debug\CNWeb.dll
+C:\Users\FR\Desktop\g\CnWeb\CNWeb\obj\Debug\CNWeb.pdb
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\CNWeb.dll.config
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\CNWeb.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\CNWeb.pdb
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\csc.exe
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\csc.exe.config
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\csc.rsp
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\csi.exe
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\csi.exe.config
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\csi.rsp
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\System.AppContext.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\System.Console.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\vbc.exe
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\vbc.exe.config
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\vbc.rsp
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\Antlr3.Runtime.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\EntityFramework.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\Model.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\Newtonsoft.Json.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\PagedList.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\PagedList.Mvc.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\SlugGenerator.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\System.Web.Helpers.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\System.Web.Mvc.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\System.Web.Optimization.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\System.Web.Razor.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\System.Web.WebPages.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\WebGrease.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\Model.pdb
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\Model.dll.config
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\EntityFramework.xml
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\PagedList.xml
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\PagedList.Mvc.xml
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\System.Web.Helpers.xml
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\System.Web.Mvc.xml
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\System.Web.Optimization.xml
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\System.Web.Razor.xml
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\System.Web.WebPages.xml
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\Newtonsoft.Json.xml
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\Antlr3.Runtime.pdb
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\obj\Debug\CNWeb.csprojAssemblyReference.cache
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\obj\Debug\CNWeb.csproj.CoreCompileInputs.cache
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\obj\Debug\CNWeb.csproj.CopyComplete
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\obj\Debug\CNWeb.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\CNWeb\obj\Debug\CNWeb.pdb

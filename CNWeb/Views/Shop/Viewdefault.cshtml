@@ -1,0 +1,55 @@
+﻿@using PagedList;
+@using PagedList.Mvc;
+@model IPagedList<Model.EF.PRODUCT>
+
+
+<section class="lattest-product-area pb-40 category-list">
+    <div class="row">
+        @foreach (var it in Model)
+        {
+            <!-- single product -->
+            <div class="col-lg-4 col-md-6" onclick="location.href='@Url.Action("Show","Show",new {id=it.ProductID})'">
+                <div class="single-product">
+                    <a href="/show?id=@it.ProductID"><img class="img-fluid" style="width:220px ; height:220px" src="~/Assets/img/product/ShowImage/@it.ShowImage" alt=""></a>
+                    <div class="product-details">
+                        <a href="single-product.html">
+                            <h6>@it.ProductName</h6>
+                            <div class="price">
+                                <h6>@it.ProductPrice ₫</h6>
+                                <!-- <h6 class="l-through"></h6> -->
+                            </div>
+                        </a>
+                        <div class="prd-bottom">
+
+                            <a href="" class="social-info">
+                                <span class="ti-bag"></span>
+                                <p class="hover-text">add to bag</p>
+                            </a>
+                            <a href="" class="social-info">
+                                <span class="lnr lnr-heart"></span>
+                                <p class="hover-text">Wishlist</p>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+        <!-- single product -->
+
+    </div>
+</section>
+
+<!-- End Best Seller -->
+<!-- Start Filter Bar -->
+<div class="filter-bar d-flex flex-wrap align-items-center">
+    <div class="sorting mr-auto">
+        <!-- <select>
+            <option value="1">Show 12</option>
+            <option value="1">Show 12</option>
+            <option value="1">Show 12</option>
+        </select> -->
+    </div>
+    @Html.PagedListPager(Model, page => Url.Action("index", "shop", new { page = page , sort = Session["sort"]}));
+</div>
+<!-- End Filter Bar -->

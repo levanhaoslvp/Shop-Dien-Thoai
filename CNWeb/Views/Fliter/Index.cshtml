@@ -1,0 +1,43 @@
+﻿
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+<script src="~/Scripts/jquery-3.4.1.js"></script>
+<script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+
+<div class="container">
+    <div class="row">
+        @{ Html.RenderAction("LeftBar","silebar");}
+
+        <div class="col-xl-9 col-lg-8 col-md-7">
+            <!-- Start Filter Bar -->
+            <div class="filter-bar d-flex flex-wrap align-items-center">
+                <div class="sorting">
+
+                    @*<ul>
+                            <a data-ajax="true" data-ajax-method="GET" data-ajax-mode="replace" data-ajax-update="#Filter" href="/Shop/filter/@Session["hangsx"]/1" >Cao đến thấp</a>
+                        </ul>*@
+                    <select onchange="location=this.value">
+                        <option value="/Fliter/index?id=@Session["hangsx"]&sort=1">
+                            thấp đến cao
+                        </option>
+                        <option value="/Fliter/index?id=@Session["hangsx"]&sort=2">
+                            Cao đến thấp
+                        </option>
+                    </select>
+                </div>
+                <div class="sorting mr-auto">
+                </div>
+
+            </div>
+            <!-- End Filter Bar -->
+            <!-- Start Best Seller -->
+            <div id="Filter">
+                @{Html.RenderAction("result"); }
+            </div>
+        </div>
+    </div>
+</div>

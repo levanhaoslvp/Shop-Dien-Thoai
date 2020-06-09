@@ -1,0 +1,139 @@
+﻿@model IEnumerable<Model.EF.PRODUCT>
+
+@{
+    ViewBag.Title = "ProductList";
+    Layout = "~/Areas/Admin/Views/Shared/Index.cshtml";
+}
+
+
+<link href="~/Areas/assets/plugins/datatables/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+<link href="~/Areas/assets/plugins/datatables/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+<link href="~/Areas/assets/plugins/datatables/responsive.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+
+<h2>ProductList</h2>
+
+<p>
+    @Html.ActionLink("Create New", "CreateProduct")
+</p>
+<table class="table table-bordered" id="product-table">
+    <thead>
+        <tr>
+            <th class="text-center">
+                ID
+            </th>
+            <th class="text-center">
+                Name
+            </th>
+
+            <th class="text-center">
+                Price
+            </th>
+
+            <th class="text-center">
+                Promotion Price
+            </th>
+
+            <th class="text-center">
+                Image
+            </th>
+            <th class="text-center">
+                Stock
+            </th>
+
+            <th class="text-center">
+                Category
+            </th>
+
+            <th class="text-center">
+                Status
+            </th>
+            <th class="text-center">
+                Create Date
+            </th>
+
+            <th class="text-center"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr id="row_@item.ProductID">
+
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.ProductID)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.ProductName)
+                </td>
+
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.ProductPrice) $
+                </td>
+
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.PromotionPrice) $
+                </td>
+
+                <td class="text-center" style="max-width: 50px;">
+                    <img src="@item.ShowImage" alt="Phone" style="max-width: 50px;" />
+
+                </td>
+
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.ProductStock)
+                </td>
+
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.CategoryID)
+                </td>
+
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.ProductStatus)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.CreatedDate)
+                </td>
+
+                <td class="text-center">
+
+                    @*<a href="/Admin/Product/Edit/@item.ProductID">content</a>*@
+                    @Html.ActionLink("Edit", "Edit", new { id = item.ProductID })|
+
+                    @*@Ajax.ActionLink("Edit","Edit",new { id=item.ProductID},new AjaxOptions
+                        {
+                            HttpMethod="Post"
+                        })|*@
+                    @Ajax.ActionLink("Delete", "DeleteProduct", new { id = item.ProductID }, new AjaxOptions
+                    {
+                        Confirm = "Do you want delete product ?",
+                        OnComplete = "$('#row_" + item.ProductID + "').remove()",
+                        HttpMethod = "Delete"
+                    })
+
+                    @*<form action="UpdateProduct" method="post" >
+                            <div class="form-group">
+                                <div class="col-md-offset-2 col-md-2 form-action">
+                                    <input name="@item.ProductID" type="submit" value="Update" class="btn btn-default" id="@item.ProductID" />
+                                </div>
+                            </div>
+                        </form>*@
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section scripts{
+    <script src="~/Areas/assets/plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="~/Areas/assets/plugins/datatables/dataTables.bootstrap4.min.js"></script>
+    <script src="~/Areas/assets/plugins/datatables/dataTables.responsive.min.js"></script>
+    <script src="~/Areas/assets/plugins/datatables/responsive.bootstrap4.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(function () {
+                $('#product-table').DataTable()
+            });
+        });
+    </script>
+}

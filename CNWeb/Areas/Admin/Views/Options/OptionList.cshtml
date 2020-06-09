@@ -1,0 +1,91 @@
+﻿@model IEnumerable<Model.EF.OPTION>
+
+@{
+    ViewBag.Title = "OptionList";
+    Layout = "~/Areas/Admin/Views/Shared/Index.cshtml";
+}
+
+
+<link href="~/Areas/assets/plugins/datatables/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+<link href="~/Areas/assets/plugins/datatables/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+<link href="~/Areas/assets/plugins/datatables/responsive.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+
+<h2>OptionList</h2>
+
+<p>
+    @Html.ActionLink("Create New", "CreateOptions")
+</p>
+<table class="table table-bordered" id="option-table">
+    <thead>
+        <tr>
+            <th class="text-center">
+                ID
+            </th>
+            <th class="text-center">
+                Name
+            </th>
+
+    
+
+            <th class="text-center"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr id="row_@item.OptionID">
+
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.OptionID)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.OptionName)
+                </td>
+
+               
+
+               
+
+                <td class="text-center">
+
+                    @*<a href="/Admin/Product/Edit/@item.ProductID">content</a>*@
+                    @Html.ActionLink("Edit", "Edit", new { id = item.OptionID })|
+
+                    @*@Ajax.ActionLink("Edit","Edit",new { id=item.ProductID},new AjaxOptions
+                        {
+                            HttpMethod="Post"
+                        })|*@
+                    @Ajax.ActionLink("Delete", "DeleteOption", new { id = item.OptionID }, new AjaxOptions
+                    {
+                        Confirm = "Do you want delete option ?",
+                        OnComplete = "$('#row_" + item.OptionID + "').remove()",
+                        HttpMethod = "Delete"
+                    })
+
+                    @*<form action="UpdateProduct" method="post" >
+                            <div class="form-group">
+                                <div class="col-md-offset-2 col-md-2 form-action">
+                                    <input name="@item.ProductID" type="submit" value="Update" class="btn btn-default" id="@item.ProductID" />
+                                </div>
+                            </div>
+                        </form>*@
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section scripts{
+    <script src="~/Areas/assets/plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="~/Areas/assets/plugins/datatables/dataTables.bootstrap4.min.js"></script>
+    <script src="~/Areas/assets/plugins/datatables/dataTables.responsive.min.js"></script>
+    <script src="~/Areas/assets/plugins/datatables/responsive.bootstrap4.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(function () {
+                $('#option-table').DataTable()
+            });
+        });
+    </script>
+}

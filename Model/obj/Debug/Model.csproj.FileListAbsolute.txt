@@ -1,0 +1,64 @@
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\Model\bin\Debug\Model.dll.config
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\Model\bin\Debug\Model.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\Model\bin\Debug\Model.pdb
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\Model\bin\Debug\EntityFramework.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\Model\bin\Debug\PagedList.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\Model\bin\Debug\PagedList.Mvc.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\Model\bin\Debug\EntityFramework.xml
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\Model\bin\Debug\PagedList.xml
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\Model\bin\Debug\PagedList.Mvc.xml
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\Model\obj\Debug\Model.csproj.CopyComplete
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\Model\obj\Debug\Model.dll
+C:\Users\BUI THI THU HUONG\Desktop\MobileShop\CNWeb\Model\obj\Debug\Model.pdb
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\Model\bin\Debug\Model.dll.config
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\Model\bin\Debug\Model.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\Model\bin\Debug\Model.pdb
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\Model\bin\Debug\EntityFramework.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\Model\bin\Debug\PagedList.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\Model\bin\Debug\PagedList.Mvc.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\Model\bin\Debug\EntityFramework.xml
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\Model\bin\Debug\PagedList.xml
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\Model\bin\Debug\PagedList.Mvc.xml
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\Model\obj\Debug\Model.csproj.CopyComplete
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\Model\obj\Debug\Model.dll
+C:\Users\THUY LINH\Documents\GitHub\CnWeb\Model\obj\Debug\Model.pdb
+C:\Users\FR\Desktop\g\CnWeb\Model\bin\Debug\Model.dll.config
+C:\Users\FR\Desktop\g\CnWeb\Model\bin\Debug\Model.dll
+C:\Users\FR\Desktop\g\CnWeb\Model\bin\Debug\Model.pdb
+C:\Users\FR\Desktop\g\CnWeb\Model\bin\Debug\EntityFramework.dll
+C:\Users\FR\Desktop\g\CnWeb\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\FR\Desktop\g\CnWeb\Model\bin\Debug\PagedList.dll
+C:\Users\FR\Desktop\g\CnWeb\Model\bin\Debug\PagedList.Mvc.dll
+C:\Users\FR\Desktop\g\CnWeb\Model\bin\Debug\EntityFramework.xml
+C:\Users\FR\Desktop\g\CnWeb\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\FR\Desktop\g\CnWeb\Model\bin\Debug\PagedList.xml
+C:\Users\FR\Desktop\g\CnWeb\Model\bin\Debug\PagedList.Mvc.xml
+C:\Users\FR\Desktop\g\CnWeb\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\FR\Desktop\g\CnWeb\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\FR\Desktop\g\CnWeb\Model\obj\Debug\Model.csproj.CopyComplete
+C:\Users\FR\Desktop\g\CnWeb\Model\obj\Debug\Model.dll
+C:\Users\FR\Desktop\g\CnWeb\Model\obj\Debug\Model.pdb
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\Model\bin\Debug\Model.dll.config
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\Model\bin\Debug\Model.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\Model\bin\Debug\Model.pdb
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\Model\bin\Debug\EntityFramework.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\Model\bin\Debug\PagedList.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\Model\bin\Debug\PagedList.Mvc.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\Model\bin\Debug\EntityFramework.xml
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\Model\bin\Debug\PagedList.xml
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\Model\bin\Debug\PagedList.Mvc.xml
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\Model\obj\Debug\Model.csproj.CopyComplete
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\Model\obj\Debug\Model.dll
+C:\Users\hao\OneDrive\Máy tính\New folder (2)\CnWeb\Model\obj\Debug\Model.pdb

@@ -1,0 +1,61 @@
+﻿
+<script src="~/Scripts/jquery-3.4.1.js"></script>
+<script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+
+<section class="lattest-product-area pb-40 category-list">
+    <div class="row">
+        @foreach (var it in ViewBag.ProductFilter)
+        {
+            <!-- single product -->
+            <div class="col-lg-4 col-md-6" onclick="location.href='#'">
+                <div class="single-product">
+                    <a href="single-product.html"><img class="img-fluid" style="width:220px ; height:220px" src="~/Assets/img/product/ShowImage/@it.ShowImage" alt=""></a>
+                    <div class="product-details">
+                        <a href="single-product.html">
+                            <h6>@it.ProductName</h6>
+                            <div class="price">
+                                <h6>@it.ProductPrice ₫</h6>
+                                <!-- <h6 class="l-through"></h6> -->
+                            </div>
+                        </a>
+                        <div class="prd-bottom">
+
+                            <a href="" class="social-info">
+                                <span class="ti-bag"></span>
+                                <p class="hover-text">add to bag</p>
+                            </a>
+                            <a href="" class="social-info">
+                                <span class="lnr lnr-heart"></span>
+                                <p class="hover-text">Wishlist</p>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+        <!-- single product -->
+
+    </div>
+</section>
+<!-- End Best Seller -->
+<!-- Start Filter Bar -->
+<div class="filter-bar d-flex flex-wrap align-items-center">
+    <div class="sorting mr-auto">
+        <!-- <select>
+            <option value="1">Show 12</option>
+            <option value="1">Show 12</option>
+            <option value="1">Show 12</option>
+        </select> -->
+    </div>
+    <div class="pagination">
+        <a href="#" class="prev-arrow"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></a>
+        <a href="#" class="active">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#" class="next-arrow"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+    </div>
+</div>
+<!-- End Filter Bar -->
